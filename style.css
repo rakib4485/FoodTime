@@ -1,0 +1,28 @@
+body{
+    font-family: 'Merienda', cursive;
+}
+
+.input-circle{
+    animation-name: cycle-move;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.cycle{
+    /* left: 50%; */
+    animation-name: cycle-move;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cycle-move {
+    0%{
+      left: 0%;
+    }
+    50% {
+      left:50%;
+    }
+    100%{
+        right: 0%;
+    }
+  }
